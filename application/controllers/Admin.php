@@ -202,7 +202,7 @@ class Admin extends CI_Controller{
         $data = array(
               'username'     => $username,
               'email'        => $email,
-              'password'     => $password,
+              'password'     => $this->hash_password($password),
               'role'         => $role,
         );
         $this->M_admin->insert('user',$data);
