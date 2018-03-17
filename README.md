@@ -4,11 +4,11 @@ Web aplikasi inventory gudang ini di buat memakai framework codeigniter yang san
 
 # User database
 <strong>Admin</strong><br>
-Username : admin
+Username : admin<br>
 Password : admin
 
 <strong>User Biasa</strong><br>
-Username : husni
+Username : husni<br>
 Password : 123husni
 
 # ScreenShot 
